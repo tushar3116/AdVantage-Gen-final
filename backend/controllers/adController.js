@@ -1,4 +1,4 @@
-const Ad = require("../models/Ad")
+const Ad = require("../models/Ad");
 const generateTagline = require("../utils/generateTagline");
 const generateTags = require("../utils/generateTags");
 const generateImage = require("../services/stabilityAI");
