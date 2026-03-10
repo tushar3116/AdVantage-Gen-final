@@ -31,7 +31,7 @@ async function generateImage(prompt) {
   }
 
   console.log("Stability AI image generated successfully");
-  return response.data; // raw image buffer
+  return response.data; //raw image buffer
 }
 
 module.exports = generateImage;
